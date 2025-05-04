@@ -1,4 +1,4 @@
-import { readProducts } from '../utils/readFile.js';
+import { readProducts } from '../utils/readProducts.js';
 
 export const getTotalPrice = async () => {
   try {

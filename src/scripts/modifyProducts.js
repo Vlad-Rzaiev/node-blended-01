@@ -1,5 +1,5 @@
-import { readProducts } from '../utils/readFile.js';
-import { writeProducts } from '../utils/writeFile.js';
+import { readProducts } from '../utils/readProducts.js';
+import { writeProducts } from '../utils/writeProducts.js';
 
 export const modifyProducts = async () => {
   try {

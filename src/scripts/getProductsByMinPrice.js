@@ -1,5 +1,5 @@
 import { pluralize } from '../utils/pluralize.js';
-import { readProducts } from '../utils/readFile.js';
+import { readProducts } from '../utils/readProducts.js';
 
 export const getProductsByMinPrice = async (price) => {
   try {

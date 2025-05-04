@@ -1,6 +1,6 @@
 import { createFakeProduct } from '../utils/createFakeProduct.js';
-import { readProducts } from '../utils/readFile.js';
-import { writeProducts } from '../utils/writeFile.js';
+import { readProducts } from '../utils/readProducts.js';
+import { writeProducts } from '../utils/writeProducts.js';
 
 export const generateProducts = async (num) => {
   try {
@@ -18,4 +18,4 @@ export const generateProducts = async (num) => {
   }
 };
 
-generateProducts(5);
+generateProducts(184);
